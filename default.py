@@ -67,11 +67,7 @@ def mostViewedMain():
 
 def videoChartsMain():
         addDir(translation(30004),"http://vidstatsx.com/most-viewed-videos-today","videoChartsOrderBy","")
-        addDir(translation(30005),"http://vidstatsx.com/most-viewed-videos-today","showCategories","")
-        addDir(translation(30008),"http://vidstatsx.com/recently-featured-videos","videoChartsOrderBy","")
-        xbmcplugin.endOfDirectory(pluginhandle)
-        if forceViewMode==True:
-          xbmc.executebuiltin('Container.SetViewMode('+viewMode+')')
+        showCategories("http://vidstatsx.com/most-viewed-videos-today")
 
 def topGainersMain():
         addDir(translation(30021),"http://vidstatsx.com/top-100-1h-sub-gains","listChannels","")
