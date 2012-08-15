@@ -198,7 +198,7 @@ def listVideos(params):
           date=match[0]
           thumb="http://img.youtube.com/vi/"+id+"/0.jpg"
           addLink(title,id,'playVideo',thumb,"Date: "+date+"; Views: "+viewCount+"\n"+desc,duration,author)
-        addDir("Next Page",user+"#"+str(int(index)+25)+"#"+orderby,'listVideos',"")
+        addDir(translation(30075),user+"#"+str(int(index)+25)+"#"+orderby,'listVideos',"")
         xbmcplugin.endOfDirectory(pluginhandle)
 
 def listVideoCharts(url):
