@@ -9,3 +9,5 @@
 - Added context menu to add channel manually
 1.0.4 / 2.0.4
 - Integrated "YouTube Channels" support
+1.0.5 / 2.0.5
+- Fixed addon dependencies
